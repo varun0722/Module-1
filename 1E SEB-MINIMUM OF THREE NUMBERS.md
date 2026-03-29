@@ -1,34 +1,25 @@
-# Experiment No: 1e – SEB-Minimum of Three Numbers
-
+## Experiment No: 1d – Conditional Statements- Checking Even or Odd
 ## AIM  
-To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
-
+To write a Python program to check whether the given number is even or odd using if..else statement.
 ## ALGORITHM  
 1. Begin the program.  
-2. Read the three numbers: `num1`, `num2`, and `num3` from the user.  
-3. Compare `num1`, `num2`, and `num3` to find the smallest number:  
-   - If `num1` is less than or equal to both `num2` and `num3`, then `num1` is the minimum.  
-   - Else, if `num2` is less than or equal to both `num1` and `num3`, then `num2` is the minimum.  
-   - Otherwise, `num3` is the minimum.  
-4. Print the minimum value along with the input numbers in the format:  
-   `"The minimum of num1, num2, num3 is min_num."`  
-5. Terminate the program.
-
+2. Take an integer input from the user.  
+3. Check if the number is divisible by 2 (i.e., number % 2 == 0).  
+4. If it is divisible by 2, display "EVEN".  
+5. Otherwise, display "ODD".  
+6. Terminate the program.  
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
-
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-
-min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
-
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
+# Reg.No- 212222060100
+# Name- Jothivanan T
+a = int(input())
+if a % 2 == 0:
+    print("EVEN")
+else:
+    print("ODD")
 ```
-
 ## OUTPUT
+<img width="407" height="295" alt="image" src="https://github.com/user-attachments/assets/db7ee6be-5db8-45b6-9ca7-249ce408c312" />
 
-## RESULT
+## RESULT  
+The program was successfully executed. It correctly identified whether the given number is even or odd using if..else statement.
